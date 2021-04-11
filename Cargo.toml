@@ -1,0 +1,16 @@
+[package]
+authors = ["mijinko17 <kougouseikeidansi@gmail.com>"]
+edition = "2018"
+name = "typesafe_derive_builder_rs"
+version = "0.1.0"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+
+[workspace]
+members = [
+  "typesafe_derive_builder",
+  "typesafe_derive_builder_core",
+  "typesafe_derive_builder_macro",
+]
